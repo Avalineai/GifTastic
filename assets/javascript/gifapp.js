@@ -1,6 +1,6 @@
 $(document).ready(function () {
     var pageTitleImg = $("<img class='titleimg' src='assets/images/GOTgif-img.png'>")
-    $(".container").prepend(pageTitleImg)
+    $("#gif-display").prepend(pageTitleImg)
 
     var topicArr = ["Tyrion Lannister", "Daenerys Targaryen", "Jon Snow", "Arya Stark", "Brienne of Tarth", "Bronn", "Cercei Lannister", "Jaime Lanniser", "Lord Varys", "Samwell Tarly"]
 
@@ -52,7 +52,11 @@ $(document).ready(function () {
 
         var newTopic = $("#gif-input").val().trim();
         console.log(newTopic)
+        if (newTopic === '') {
+            $("#gif-input").val('')
+        } else {
         topicArr.push(newTopic);
+        }
         $("#gif-input").val('')
         topicButtons();
     })

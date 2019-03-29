@@ -1,5 +1,14 @@
-button, div, form, input {
-margin: 10px;
+body {
+    background-color: black;
+}
+
+div, form, input {
+    margin: 10px;
+}
+
+button, #add-gif {
+    margin: 10px;
+    background-color:rgba(192, 243, 255, 0.25);
 }
 
 .titleimg {
@@ -9,4 +18,15 @@ margin: 10px;
 
 .ratingDiv {
     text-transform: capitalize;
+}
+
+.container {
+    background-image:
+    url("../images/GOT-ravenCropJ2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#gif-display {
+    background-color:rgba(192, 243, 255, 0.4);
 }
