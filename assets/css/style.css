@@ -1,0 +1,12 @@
+button, div, form, input {
+margin: 10px;
+}
+
+.titleimg {
+    margin: 10px;
+    width: 700px;
+}
+
+.ratingDiv {
+    text-transform: capitalize;
+}
