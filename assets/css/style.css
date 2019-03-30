@@ -11,6 +11,10 @@ button, #add-gif {
     background-color:rgba(192, 243, 255, 0.25);
 }
 
+button:hover, #add-gif:hover {
+    background-color:rgba(192, 243, 255, 0.00);
+}
+
 .titleimg {
     margin: 10px;
     width: 700px;
