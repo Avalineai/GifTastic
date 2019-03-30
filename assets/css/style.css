@@ -87,6 +87,25 @@ button:hover, #add-gif:hover {
     }
 }
 
+@media (max-width: 415px){
+    .titleimg{
+        width: 300px;
+    }
+    #leftdiv, #rightdiv {
+        display: none;
+    }
+    .gif {
+        max-width: 100%;
+    }
+    .container {
+        background-image:
+        url("../images/GOT-ravenCropJ.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+}
+
 @media (max-width: 400px){
     .titleimg{
         width: 300px;
