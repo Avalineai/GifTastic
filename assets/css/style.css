@@ -97,4 +97,11 @@ button:hover, #add-gif:hover {
     .gif {
         max-width: 100%;
     }
+    .container {
+        background-image:
+        url("../images/GOT-ravenCropJ.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+    }
 }
