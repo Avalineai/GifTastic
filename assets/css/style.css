@@ -22,11 +22,75 @@ button, #add-gif {
 
 .container {
     background-image:
-    url("../images/GOT-ravenCropJ2.jpg");
+    url("../images/GOT-ravenCropJ8.jpg");
     background-repeat: no-repeat;
     background-position: center center;
+    background-attachment: fixed;
 }
 
 #gif-display {
     background-color:rgba(192, 243, 255, 0.4);
+}
+
+@media (max-width: 992px){
+    .titleimg{
+        width: 600px;
+    }
+    #leftdiv, #rightdiv {
+        display: none;
+    }
+}
+
+@media (max-width: 767px){
+    .titleimg{
+        width: 500px;
+    }
+    #leftdiv, #rightdiv {
+        display: none;
+    }
+}
+
+@media (max-width: 545px){
+    .titleimg{
+        width: 450px;
+    }
+    #leftdiv, #rightdiv {
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+    .titleimg{
+        width: 400px;
+    }
+    #leftdiv, #rightdiv {
+        display: none;
+    }
+    .gif {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 450px){
+    .titleimg{
+        width: 350px;
+    }
+    #leftdiv, #rightdiv {
+        display: none;
+    }
+    .gif {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 400px){
+    .titleimg{
+        width: 300px;
+    }
+    #leftdiv, #rightdiv {
+        display: none;
+    }
+    .gif {
+        max-width: 100%;
+    }
 }
